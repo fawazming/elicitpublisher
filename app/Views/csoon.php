@@ -55,7 +55,7 @@
                     <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
                         <div class="welcome-text text-center">
                             <div class="clock-countdown">
-                                <div class="site-config" data-date="06/30/2024 00:00:00" data-date-timezone="+0"></div>
+                                <div class="site-config" data-date="07/31/2024 00:00:00" data-date-timezone="+0"></div>
                                 <div class="coundown-timer">
                                     <div class="single-counter"><span class="days">00</span><span class="normal">Days</span></div>
                                     <div class="single-counter"><span class="hours">00</span><span class="normal">Hours</span></div>
