@@ -87,6 +87,7 @@
                     </article>
                 </div>
             </div>
+            <h2 class="title text-center" id="about">About Us</h2>
             <div class="row mt_30">
                 <div class="col-sm-4">
                     <article class="sabbi-thumlinepost-card solitude-bg__x">
@@ -127,6 +128,64 @@
                     </article>
                 </div>
             </div>
+            <h2 class="title text-center">Service Charter</h2>
+            <p class="text-center page_piky-text mg_0">Elicit Publishing House is committed to the following principles in our service to authors and readers:</p>
+            <div class="row mt_30">
+                <div class="col-md-4 col-sm-6">
+                    <div class="icon-card text-center">
+                        <figure class="icon-card-limn">
+                        <i class="ion-ios-diamond"></i>
+                        </figure>
+                        <h3 class="card-title">Quality</h3>
+                        <p class="card-meta">We pledge to uphold the highest standards of editorial, design, and production quality in every book we publish.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="icon-card text-center">
+                        <figure class="icon-card-limn">
+                        <i class="ion-ios-bonfire-outline"></i>
+                        </figure>
+                        <h3 class="card-title">Author Support</h3>
+                        <p class="card-meta">We provide comprehensive support to our authors, including editorial guidance, marketing strategies, and transparent communication throughout the publishing process.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="icon-card text-center">
+                        <figure class="icon-card-limn">
+                        <i class="ion-ios-diamond"></i>
+                        </figure>
+                        <h3 class="card-title">Timeliness</h3>
+                        <p class="card-meta">We commit to efficient and timely production schedules, ensuring that our authors' works reach the market promptly without compromising on quality.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="icon-card text-center">
+                        <figure class="icon-card-limn">
+                        <i class="ion-ios-bonfire-outline"></i>
+                        </figure>
+                        <h3 class="card-title">Accessibility</h3>
+                        <p class="card-meta">We strive to make our books accessible to a wide audience through various distribution channels and formats, including print, digital, and audio.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="icon-card text-center">
+                        <figure class="icon-card-limn">
+                        <i class="ion-ios-diamond"></i>
+                        </figure>
+                        <h3 class="card-title">Innovation</h3>
+                        <p class="card-meta">We continuously seek innovative approaches to publishing, marketing, and reader engagement, staying at the forefront of industry trends and technologies.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="icon-card text-center">
+                        <figure class="icon-card-limn">
+                        <i class="ion-ios-bonfire-outline"></i>
+                        </figure>
+                        <h3 class="card-title">Satisfaction</h3>
+                        <p class="card-meta">We prioritize the satisfaction of our authors and readers, regularly seeking feedback to improve our services and meet their evolving needs.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="section-brand_quickfact section">
@@ -164,13 +223,12 @@
             <h2 class="title text-center">Our Core Values</h2>
             <div class="row">
             <div class="col-sm-6">
-                <ul class="list-unstyled entry-meta-list list-style-round_item">
+                <ul class="list-unstyled entry-meta-list list-style-round_item mt_30">
                     <li><b>Excellence:</b> We are dedicated to achieving the highest standards in every book we publish.</li>
                     <li><b>Creativity:</b>  We encourage and celebrate creativity in all its forms, fostering an environment where innovative ideas can flourish.</li>
-                    <li> Integrity: We conduct our business with honesty and transparency, building trust with our authors, readers, and partners.</li>
-                    <li>Duis bibendum id eros congue bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                    <li>Lorem ipsum dolor sit amet, con adipiscing elit. Etiam convallis elit id impedie. Quisq commodo ornare tortor Quiue bibendu.</li>
-                    <li>Duis bibendum id eros congue bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                    <li><b>Integrity:</b>  We conduct our business with honesty and transparency, building trust with our authors, readers, and partners.</li>
+                    <li><b>Diversity:</b> We embrace diverse voices and perspectives, striving to publish works that reflect the richness of human experience.</li>
+                    <li><b>Sustainability:</b> We are committed to sustainable practices in our operations, contributing to a healthier planet and a brighter future. </li>
                 </ul>
             </div>
             <div class="col-sm-6">
@@ -230,5 +288,20 @@
                 </div>
             </div>
             <div class="action-wrap text-right-sm"><a href="ourteam.html" class="btn btn-unsolemn btn-action">View all</a></div>
+        </div>
+    </section>
+    <section class="page-appellation">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-4">
+                    <div class="page_piky-title">
+                        <h2 class="page-title font-md lil-line">Elicit Publishing House Corporate Social Responsibility (CSR) on Promoting Articles on Sustainable Development Goals (SDGs)</h2>
+                    </div>
+                </div>
+                <div class="col-sm-7 col-md-7 col-md-offset-1">
+                    <p class="page_piky-text">At Elicit Publishing House, we recognize the crucial role of literature and journalism in raising awareness and driving action towards the United Nations Sustainable Development Goals (SDGs). As part of our Corporate Social Responsibility (CSR) initiatives, we are committed to promoting and publishing articles that support these global goals, using our platform to amplify important issues, foster understanding, and inspire change through impactful storytelling.</p>
+                    <p class="page_piky-text">Our articles aim to educate readers about the Sustainable Development Goals (SDGs) and inspire them to take meaningful actions in support of these goals. By engaging our audience with compelling content, we hope to foster a community of informed and motivated individuals committed to sustainable development. Through thought-provoking articles and advocacy, we seek to influence policymakers and practitioners to adopt and implement strategies that advance the SDGs.</p>
+                </div>
+            </div>
         </div>
     </section>
