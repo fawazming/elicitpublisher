@@ -137,7 +137,7 @@ class Boot
             // @phpstan-ignore-next-line
             $env = $_ENV['CI_ENVIRONMENT'] ?? $_SERVER['CI_ENVIRONMENT']
                 ?? getenv('CI_ENVIRONMENT')
-                ?: 'production';
+                ?: 'development';
 
             define('ENVIRONMENT', $env);
         }
