@@ -6,8 +6,18 @@ class Home extends BaseController
 {
     public function index()
     {
+        $OJSID = $_ENV['OJS_ID'];
+        $client = \Config\Services::curlrequest();
+
+        $response = $client->request('GET', 'https://journal.elicitpublisher.com/index.php/index/api/v1/contexts', [
+            'headers' => [
+                'Authorization' => 'Bearer ' . $OJSID,
+            ]
+        ]);
+        // dd($response->getBody());
+        $data = [ 'journals' => json_decode($response->getBody())->items];
         echo view('header');
-        echo view('home');
+        echo view('home', $data);
         echo view('footer');
     }
     
@@ -76,21 +86,21 @@ class Home extends BaseController
     }
 
 
-    public function blogD($id)
+    public function journal($id)
     {
-        $BLOGID = $_ENV['BLOGGER_ID'];
+        $OJSID = $_ENV['OJS_ID'];
         $client = \Config\Services::curlrequest();
-        // dd($id);
 
-        $response = $client->request('GET', 'https://www.googleapis.com/blogger/v3/blogs/'.$BLOGID.'/posts/'.$id.'?key='.$_ENV['BLOGGER']);
-
-        $data = [ 'blog' => json_decode($response->getBody())
-        ];
-
-        dd($data);
-        // echo view('header');
-        // echo view('blogSingle', $data);
-        // echo view('footer');
+        $response = $client->request('GET', 'https://journal.elicitpublisher.com/index.php/index/api/v1/contexts/'.$id, [
+            'headers' => [
+                'Authorization' => 'Bearer ' . $OJSID,
+            ]
+        ]);
+        // dd($response->getBody());
+        $data = [ 'journal' => json_decode($response->getBody())];
+        echo view('header');
+        echo view('journal', $data);
+        echo view('footer');
     }
 
     public function pages($pg='')

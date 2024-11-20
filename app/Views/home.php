@@ -36,57 +36,8 @@
     </header>
     <section class="sabbbi-section home-info mt_35">
         <div class="container">
-            <h2 class="title text-center">Our Journals</h2>
-            <div class="row home-info-block-first">
-                <div class="col-md-3 col-sm-6">
-                    <article class="sabbi-thumlinepost-card solitude-bg__x">
-                        <figure class="sabbi-thumlinepost-card-figure">
-                            <img src="<?=base_url('ui/images/card-1.png')?>" alt="" class="img-responsive img-thumpost">
-                        </figure>
-                        <div class="sabbi-thumlinepost-card-meta">
-                            <h2 class="meta-title ht-5">Immunology: T-cell tweaks to target tumours</h2>
-                            <p class="meta-text"></p>
-                            <!-- <a href="#" class="btn btn-unsolemn btn-action read-more">Read More</a> -->
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <article class="sabbi-thumlinepost-card solitude-bg__x">
-                        <figure class="sabbi-thumlinepost-card-figure">
-                            <img src="<?=base_url('ui/images/card-2.png')?>" alt="" class="img-responsive img-thumpost">
-                        </figure>
-                        <div class="sabbi-thumlinepost-card-meta">
-                            <h2 class="meta-title ht-5">Molecular biology: RNA editing packs a two punch</h2>
-                            <p class="meta-text"></p>
-                            <!-- <a href="#" class="btn btn-unsolemn btn-action read-more">Read More</a> -->
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <article class="sabbi-thumlinepost-card solitude-bg__x">
-                        <figure class="sabbi-thumlinepost-card-figure">
-                            <img src="<?=base_url('ui/images/card-3.png')?>" alt="" class="img-responsive img-thumpost">
-                        </figure>
-                        <div class="sabbi-thumlinepost-card-meta">
-                            <h2 class="meta-title ht-5">Cardiovascular disease: Commonality with cancer</h2>
-                            <p class="meta-text"></p>
-                            <!-- <a href="#" class="btn btn-unsolemn btn-action read-more">Read More</a> -->
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <article class="sabbi-thumlinepost-card solitude-bg__x">
-                        <figure class="sabbi-thumlinepost-card-figure">
-                            <img src="<?=base_url('ui/images/card-4.png')?>" alt="" class="img-responsive img-thumpost">
-                        </figure>
-                        <div class="sabbi-thumlinepost-card-meta">
-                            <h2 class="meta-title ht-5">Immunology: T-cell tweaks to target tumours</h2>
-                            <p class="meta-text"></p>
-                            <!-- <a href="#" class="btn btn-unsolemn btn-action read-more">Read More</a> -->
-                        </div>
-                    </article>
-                </div>
-            </div>
+            <?= $this->include('journals') ?>
+            
             <h2 class="title text-center" id="about">About Us</h2>
             <div class="row mt_30">
                 <div class="col-sm-4">
