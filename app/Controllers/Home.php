@@ -106,7 +106,7 @@ class Home extends BaseController
     private function OJSPage($id) {
         $NavMenu = new \App\Models\NavMenu();
 		$page = $NavMenu->where('setting_value',$id)->find();
-        return $page[0];
+        return $page;
     }
 
     public function pages($pg='')
