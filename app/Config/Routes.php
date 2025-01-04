@@ -8,6 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 // $routes->get('/', 'Home::csoon');
 $routes->get('/', 'Home::index');
 $routes->get('/journal/(:any)', 'Home::journal/$1');
+// $routes->get('/plagiarism-policies', 'Home::impLinks');
 $routes->get('/gallery', 'Home::gallery');
 $routes->get('/blog', 'Home::blog');
 $routes->get('/blog/(:any)/(:any)/(:any)', 'Home::singleBlog/$1/$2/$3');

@@ -103,14 +103,21 @@ class Home extends BaseController
         echo view('footer');
     }
 
+    private function OJSPage($id) {
+        $NavMenu = new \App\Models\NavMenu();
+		$page = $NavMenu->where('setting_value',$id)->find();
+        return $page[0];
+    }
+
     public function pages($pg='')
     {
         switch ($pg) {
-            case 'about':
-                $jsonld = '';
-                echo view('main/header', ['title'=>"About Klients Aspire LTD", 'desc'=>"Learn more about us", 'jsonld'=>$jsonld]);
-                echo view('main/pages', $this->loadPage('7775276068026621191'));
-                echo view('main/footer');
+            case 'plagiarism-policies':
+                dd($this->OJSPage('59'));
+                // $jsonld = '';
+                // echo view('header', ['title'=>"Plagiarism policies | Elicit Publishing House", 'desc'=>"Learn more our journal plagiarism policies", 'jsonld'=>$jsonld]);
+                // echo view('impLinks', []);
+                // echo view('footer');
                 break;
             
             default:
