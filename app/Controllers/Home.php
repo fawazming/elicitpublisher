@@ -115,11 +115,10 @@ class Home extends BaseController
     {
         switch ($pg) {
             case 'plagiarism-policies':
-                dd($this->OJSPage('59'));
-                // $jsonld = '';
-                // echo view('header', ['title'=>"Plagiarism policies | Elicit Publishing House", 'desc'=>"Learn more our journal plagiarism policies", 'jsonld'=>$jsonld]);
-                // echo view('impLinks', []);
-                // echo view('footer');
+                $jsonld = '';
+                echo view('header', ['title'=>"Plagiarism policies | Elicit Publishing House", 'desc'=>"Learn more our journal plagiarism policies", 'jsonld'=>$jsonld]);
+                echo view('impLinks', ['pg'=>$this->OJSPage('59')]);
+                echo view('footer');
                 break;
             
             default:
