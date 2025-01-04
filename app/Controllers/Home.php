@@ -120,7 +120,13 @@ class Home extends BaseController
                 echo view('impLinks', ['pg'=>$this->OJSPage('59')]);
                 echo view('footer');
                 break;
-            
+                // publication-ethics
+            case 'publication-ethics':
+                    $jsonld = '';
+                    echo view('header', ['title'=>"Publication Ethics | Elicit Publishing House", 'desc'=>"Learn more our journal Publication Ethics", 'jsonld'=>$jsonld]);
+                    echo view('impLinks', ['pg'=>$this->OJSPage('60')]);
+                    echo view('footer');
+                    break;
             default:
                echo "404 Not found";
                 break;
