@@ -115,20 +115,205 @@ class Home extends BaseController
     {
         switch ($pg) {
             case 'plagiarism-policies':
-                $jsonld = '';
-                echo view('header', ['title'=>"Plagiarism policies | Elicit Publishing House", 'desc'=>"Learn more our journal plagiarism policies", 'jsonld'=>$jsonld]);
-                echo view('impLinks', ['pg'=>$this->OJSPage('59')]);
+                $jsonld = '
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": "Plagiarism Policies | Elicit Publishing House",
+                    "description": "Learn more about our journal plagiarism policies.",
+                    "url": "' . base_url('plagiarism-policies') . '",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Elicit Publishing House",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "' . base_url('ui/images/site-logo.png') . '"
+                        }
+                    }
+                }';
+                echo view('header', ['title' => "Plagiarism policies | Elicit Publishing House", 'desc' => "Learn more about our journal plagiarism policies", 'jsonld' => $jsonld]);
+                echo view('impLinks', ['pg' => $this->OJSPage('59')]);
                 echo view('footer');
                 break;
-                // publication-ethics
+        
             case 'publication-ethics':
-                    $jsonld = '';
-                    echo view('header', ['title'=>"Publication Ethics | Elicit Publishing House", 'desc'=>"Learn more our journal Publication Ethics", 'jsonld'=>$jsonld]);
-                    echo view('impLinks', ['pg'=>$this->OJSPage('60')]);
-                    echo view('footer');
-                    break;
+                $jsonld = '
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": "Publication Ethics | Elicit Publishing House",
+                    "description": "Learn more about our journal publication ethics.",
+                    "url": "' . base_url('publication-ethics') . '",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Elicit Publishing House",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "' . base_url('ui/images/site-logo.png') . '"
+                        }
+                    }
+                }';
+                echo view('header', ['title' => "Publication Ethics | Elicit Publishing House", 'desc' => "Learn more about our journal Publication Ethics", 'jsonld' => $jsonld]);
+                echo view('impLinks', ['pg' => $this->OJSPage('60')]);
+                echo view('footer');
+                break;
+        
+            case 'editors-responsibilities':
+                $jsonld = '
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": "Editors\' Responsibilities | Elicit Publishing House",
+                    "description": "Learn more about the responsibilities of editors.",
+                    "url": "' . base_url('editors-responsibilities') . '",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Elicit Publishing House",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "' . base_url('ui/images/site-logo.png') . '"
+                        }
+                    }
+                }';
+                echo view('header', ['title' => "Editors' Responsibilities | Elicit Publishing House", 'desc' => "Learn more about the responsibilities of editors", 'jsonld' => $jsonld]);
+                echo view('impLinks', ['pg' => $this->OJSPage('61')]);
+                echo view('footer');
+                break;
+        
+            case 'authors-duties':
+                $jsonld = '
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": "Authors\' Duties | Elicit Publishing House",
+                    "description": "Learn more about the duties of authors.",
+                    "url": "' . base_url('authors-duties') . '",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Elicit Publishing House",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "' . base_url('ui/images/site-logo.png') . '"
+                        }
+                    }
+                }';
+                echo view('header', ['title' => "Authors' Duties | Elicit Publishing House", 'desc' => "Learn more about the duties of authors", 'jsonld' => $jsonld]);
+                echo view('impLinks', ['pg' => $this->OJSPage('62')]);
+                echo view('footer');
+                break;
+        
+            case 'reviewers-duties':
+                $jsonld = '
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": "Reviewers\' Duties | Elicit Publishing House",
+                    "description": "Learn more about the duties of reviewers.",
+                    "url": "' . base_url('reviewers-duties') . '",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Elicit Publishing House",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "' . base_url('ui/images/site-logo.png') . '"
+                        }
+                    }
+                }';
+                echo view('header', ['title' => "Reviewers' Duties | Elicit Publishing House", 'desc' => "Learn more about the duties of reviewers", 'jsonld' => $jsonld]);
+                echo view('impLinks', ['pg' => $this->OJSPage('63')]);
+                echo view('footer');
+                break;
+        
+            case 'instructions-for-authors':
+                $jsonld = '
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": "Instructions for Authors | Elicit Publishing House",
+                    "description": "Learn more about the instructions for authors.",
+                    "url": "' . base_url('instructions-for-authors') . '",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Elicit Publishing House",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "' . base_url('ui/images/site-logo.png') . '"
+                        }
+                    }
+                }';
+                echo view('header', ['title' => "Instructions for Authors | Elicit Publishing House", 'desc' => "Learn more about the instructions for authors", 'jsonld' => $jsonld]);
+                echo view('impLinks', ['pg' => $this->OJSPage('64')]);
+                echo view('footer');
+                break;
+        
+            case 'article-policies':
+                $jsonld = '
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": "Article Policies | Elicit Publishing House",
+                    "description": "Learn more about our article policies.",
+                    "url": "' . base_url('article-policies') . '",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Elicit Publishing House",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "' . base_url('ui/images/site-logo.png') . '"
+                        }
+                    }
+                }';
+                echo view('header', ['title' => "Article Policies | Elicit Publishing House", 'desc' => "Learn more about our article policies", 'jsonld' => $jsonld]);
+                echo view('impLinks', ['pg' => $this->OJSPage('65')]);
+                echo view('footer');
+                break;
+        
+            case 'editing-services':
+                $jsonld = '
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": "Editing Services | Elicit Publishing House",
+                    "description": "Learn more about our editing services.",
+                    "url": "' . base_url('editing-services') . '",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Elicit Publishing House",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "' . base_url('ui/images/site-logo.png') . '"
+                        }
+                    }
+                }';
+                echo view('header', ['title' => "Editing Services | Elicit Publishing House", 'desc' => "Learn more about our editing services", 'jsonld' => $jsonld]);
+                echo view('impLinks', ['pg' => $this->OJSPage('66')]);
+                echo view('footer');
+                break;
+        
+            case 'peer-review-policy':
+                $jsonld = '
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": "Peer Review Policy | Elicit Publishing House",
+                    "description": "Learn more about our peer review policy.",
+                    "url": "' . base_url('peer-review-policy') . '",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Elicit Publishing House",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "' . base_url('ui/images/site-logo.png') . '"
+                        }
+                    }
+                }';
+                echo view('header', ['title' => "Peer Review Policy | Elicit Publishing House", 'desc' => "Learn more about our peer review policy", 'jsonld' => $jsonld]);
+                echo view('impLinks', ['pg' => $this->OJSPage('67')]);
+                echo view('footer');
+                break;
+        
             default:
-               echo "404 Not found";
+                echo "404 Not found";
                 break;
         }
     }
