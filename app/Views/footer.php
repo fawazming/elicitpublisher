@@ -10,53 +10,64 @@
                         <address>
                             <h3 class="entry-title">Address</h3>
                             <div class="address-entry">
-                                <p class="__adtext">Kingsland Micro and Nanotechnology Centre Nathan campus, Friffith University</p>
-                                <!-- <p class="__ad-num">1173 Kessels Road</p>
-                                <p class="__ad-num">Nathan, Kingsland 5712</p>
-                                <p class="__ad-num">Australia</p> -->
+                                <p class="__adtext">667 E 187Th Street, </p>
+                                <p class="__ad-num">Apt 8, Bronx,</p>
+                                <p class="__ad-num">NY 10458</p>
+                                <p class="__ad-num">United States</p>
                             </div>
                         </address>
-                        <footer class="contact-info">
-                            <h3 class="entry-title">Contact Information</h3>
-                            <p class="__ci_num">Call: <span>+61(07)373 53921</span></p>
-                            <p class="__ci_num">Email: <span><a href="" class="" >hello@gmail.com</a></span></p>
-                        </footer>
+                       
                     </div>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-9">
                     <div class="row">
-                        <div class="col-sm-5 col-sm-offset-2">
+                    <div class="col-sm-3">
                             <section class="widget widget_sec">
                                 <div class="widget-main">
-                                    <h2 class="widget-title">Resarch groups</h2>
+                                <footer class="contact-info">
+                                    <h3 class="entry-title">Contact Information</h3>
+                                    <p class="__ci_num">Call: <span>+61(07)373 53921</span></p>
+                                    <p class="__ci_num">Email: <span><a href="mailto:admin@elicitpublisher.com" class="" >admin@elicitpublisher.com</a></span></p>
+                                </footer>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-sm-3">
+                            <section class="widget widget_sec">
+                                <div class="widget-main">
+                                    <h2 class="widget-title">Journal Important Links</h2>
                                     <ul class="list list-unstyled list-footer-nav">
-                                        <li><a href="#">Biology</a></li>
-                                        <li><a href="#">Chemistryl</a></li>
-                                        <li><a href="#">Geology</a></li>
-                                        <li><a href="#">Physics</a></li>
+                                        <li><a href="<?=base_url('plagiarism-policies')?>">Plagiarism Policies</a></li>
+                                        <li><a href="<?=base_url('publication-ethics')?>">Publication Ethics</a></li>
+                                        <li><a href="<?=base_url('editors-responsibilities')?>">Editors' Responsibilities</a></li>
+                                        <li><a href="<?=base_url('authors-duties')?>">Authors' Duties</a></li>
+                                        <li><a href="<?=base_url('reviewers-duties')?>">Reviewers' Duties</a></li>
                                     </ul>
                                 </div>
                             </section>
-                            <!-- <section class="widget widget_sec">
-                                <div class="widget-main">
-                                    <h2 class="widget-title">Publication</h2>
-                                    <ul class="list list-unstyled list-footer-nav">
-                                        <li><a href="#">Elicit Publication</a></li>
-                                        <li><a href="#">Our Team</a></li>
-                                        <li><a href="#">Alumni</a></li>
-                                    </ul>
-                                </div>
-                            </section> -->
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-3">
                             <section class="widget widget_sec">
                                 <div class="widget-main">
-                                    <h2 class="widget-title">People</h2>
+                                <h2 class="widget-title">Publication</h2>
                                     <ul class="list list-unstyled list-footer-nav">
-                                        <li><a href="#">Books</a></li>
-                                        <li><a href="#">Books Chapter</a></li>
-                                        <li><a href="#">Journal Article</a></li>
-                                        <li><a href="#">Guest Editor</a></li>
+                                         <li><a href="<?=base_url('instructions-for-authors')?>">Instructions for Authors</a></li>
+                                        <li><a href="<?=base_url('article-policies')?>">Article Policies</a></li>
+                                        <li><a href="<?=base_url('editing-services')?>">Editing Services</a></li>
+                                        <li><a href="<?=base_url('peer-review-policy')?>">Peer Review Policy</a></li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-sm-3">
+                            <section class="widget widget_sec">
+                                <div class="widget-main">
+                                    <h2 class="widget-title">Links</h2>
+                                    <ul class="list list-unstyled list-footer-nav">
+                                        <li><a href="#">SDG Alignment</a></li>
+                                        <li><a href="#">Be a Reviewer</a></li>
+                                        <li><a href="#">Get your Manuscript Published</a></li>
+                                        <li><a href="https://klientaspire.com">Editing Services</a></li>
                                     </ul>
                                 </div>
                             </section>
@@ -71,28 +82,6 @@
                                 </div>
                             </section> -->
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="footer-site-info">
-                        <address>
-                            <h3 class="entry-title">Latest Events</h3>
-                            <ul class="event-list list-unstyled">
-                                <li>
-                                    <h4 class="title"><a href="events_single.html">Study Tour and Christmas Trip</a></h4>
-                                    <div class="date">21st June 2016</div>
-                                </li>
-                                <li>
-                                    <h4 class="title"><a href="events_single.html">Mid Year Lab Party and Summer vacation</a></h4>
-                                    <div class="date">21st June 2016</div>
-                                </li>
-                                <li>
-                                    <h4 class="title"><a href="events_single.html">Science Award 2015-2016</a></h4>
-                                    <div class="date">21st June 2016</div>
-                                </li>
-                            </ul>
-                            <div class="action-wrap"><a href="events.html" class="btn btn-unsolemn btn-action">View all Events</a></div>
-                        </address>
                     </div>
                 </div>
             </div>

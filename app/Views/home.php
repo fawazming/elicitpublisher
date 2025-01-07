@@ -44,7 +44,7 @@
                     <article class="sabbi-thumlinepost-card solitude-bg__x">
                         <h2 class="entry-title ht-4">About Us</h2>
                         <div class="sabbi-thumlinepost-card-meta">
-                            <p class="entry-text">Elicit Publishing House is a forward-thinking company dedicated to discovering and nurturing talented authors across diverse genres. Passionate about bringing compelling stories and innovative ideas to life, we offer a platform for voices that deserve to be heard. Our experienced team ensures every book meets the highest quality standards and reaches its full potential in the marketplace. We believe in the power of literature to inspire, educate, and transform lives.</p>
+                            <p class="entry-text">Elicit Publishing Limited is a forward-thinking publishing house dedicated to uncovering hidden ideas and clarifying complex concepts to illuminate new perspectives and contribute to global knowledge frontiers. We aim to solve the world’s most pressing problems by addressing issues like poverty, inequality, climate change, and sustainability. Our platform empowers authors to explore, refine, and share transformative ideas that inspire innovation and drive meaningful change, in line with the Sustainable Development Goals (SDGs) for 2030 and beyond.</p>
                             <!-- <a href="#" class="btn btn-unsolemn btn-action read-more">Read More</a> -->
                         </div>
                     </article>
@@ -54,7 +54,7 @@
                         <h2 class="stage-title">Mission</h2>
                         <ul class="list-unstyled lst_news_list" tabindex="0">
                             <li class="lst_news_item">
-                                <p class="title mg_0">Our mission is to provide a nurturing environment for authors to develop their craft and share their stories with the world. We strive to publish high-quality books that captivate, inform, and inspire readers, while maintaining a commitment to integrity, excellence, and sustainability in all aspects of our business.</p>
+                                <p class="title mg_0">At Elicit Publishing Limited, we bring hidden ideas to life and clarify complex concepts that drive global progress. Committed to publishing high-quality works addressing urgent issues like poverty, inequality, and climate change, we support the SDGs and empower authors to advance a more inclusive, equitable, and sustainable world.</p>
                             </li>
                         </ul>
                     </article>
@@ -72,7 +72,7 @@
                         <h2 class="stage-title">Vision</h2>
                         <ul class="list-unstyled lst_news_list" tabindex="0">
                             <li class="lst_news_item">
-                                <p class="title mg_0">To be a leading global publishing house that champions creativity, diversity, and innovation, enriching the literary landscape with exceptional works that resonate with readers and inspire positive change.</p>
+                                <p class="title mg_0">Elicit Publishing Limited aspires to lead the industry in uncovering ideas that inspire global change. By championing sustainability, inclusivity, and innovation, we aim to shape a resilient, equitable, and sustainable future through transformative publishing.</p>
                             </li>
                         </ul>
                         <!-- <a href="events.html" class="btn btn-unsolemn btn-action read-more">VIEW ALL</a> -->
@@ -190,7 +190,7 @@
         </div>
         </div>
     </section>
-    <section class="sabbi-section section-meet_the_team">
+    <!-- <section class="sabbi-section section-meet_the_team">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -240,7 +240,7 @@
             </div>
             <div class="action-wrap text-right-sm"><a href="ourteam.html" class="btn btn-unsolemn btn-action">View all</a></div>
         </div>
-    </section>
+    </section> -->
     <section class="page-appellation">
         <div class="container">
             <div class="row">

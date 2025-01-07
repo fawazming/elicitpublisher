@@ -21,7 +21,6 @@
                 <a href="<?=base_url('article-policies')?>" class="btn btn-gules docs-creator btn-block">Article Policies</a>
                 <a href="<?=base_url('editing-services')?>" class="btn btn-gules docs-creator btn-block">Editing Services</a>
                 <a href="<?=base_url('peer-review-policy')?>" class="btn btn-gules docs-creator btn-block">Peer Review Policy</a>
-                <a href="<?=base_url('default')?>" class="btn btn-gules docs-creator btn-block">Default (404 Not Found)</a>
             </aside>
         </div>
     </div>
