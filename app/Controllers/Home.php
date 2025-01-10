@@ -8,6 +8,8 @@ class Home extends BaseController
     {
         $OJSID = $_ENV['OJS_ID'];
         $client = \Config\Services::curlrequest();
+        $Journals = new \App\Models\Journals();
+
 
         $response = $client->request('GET', 'https://journal.elicitpublisher.com/index.php/index/api/v1/contexts', [
             'headers' => [
@@ -15,7 +17,8 @@ class Home extends BaseController
             ]
         ]);
         // dd($response->getBody());
-        $data = [ 'journals' => json_decode($response->getBody())->items];
+        $data = [ 'journals' => json_decode($response->getBody())->items, 'jID' => $Journals->findAll()];
+        dd($data);
         echo view('header');
         echo view('home', $data);
         echo view('footer');
