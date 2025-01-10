@@ -18,7 +18,7 @@ class Home extends BaseController
         ]);
         // dd($response->getBody());
         $data = [ 'journals' => json_decode($response->getBody())->items, 'jID' => $Journals->findAll()];
-        dd($data);
+        // dd($data);
         echo view('header');
         echo view('home', $data);
         echo view('footer');
